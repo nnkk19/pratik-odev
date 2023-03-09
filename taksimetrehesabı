@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class taksimetreHesap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double km,ucret;
+		Scanner girdi= new Scanner(System.in);
+		
+		System.out.print("KM GIRINIZ");
+		double km1 = girdi.nextDouble();
+		
+	
+		
+  	       double ucret1 = (km1*2.20)+10;
+  	       System.out.print("odenecek tutar "+ucret1);
+	}
+
+}
